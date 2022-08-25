@@ -24,6 +24,7 @@ class Node:
                                                                            self.n_gpus, self.gpu_type))
 
     def print_stats_verbose(self):
+        print('This is not done yet')
 
     def update_state(self):
         # Used to update the current state of the node (How many CPU, GPU, RAM)
