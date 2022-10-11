@@ -6,7 +6,8 @@ A tool for scraping current usage information from nodes
 
 ## Installation:
 
-First activate a conda environment, then navigate to directory you want to install the package
+Install and run on a ROAR node.  First activate a conda environment,
+then navigate to directory you want to install the package
 ```
 git clone https://github.com/gmwendel/ROAR_Stats
 cd ROAR_Stats
