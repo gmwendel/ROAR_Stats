@@ -4,7 +4,7 @@ import subprocess
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-v','--verbose', default=False, type=bool,
+    parser.add_argument('-v','--verbose', default=False, action="store_true",
                         help='Add flag to display job information on node; Default = False')
     args = parser.parse_args()
 
