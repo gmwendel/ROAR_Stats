@@ -13,6 +13,7 @@ cd ROAR_Stats
 pip install --editable .
 ```
 
+## Usage:
 Display stats about current SAGEMAPP utilization after install
 by running sagemapp_stats. Example:
 ```
