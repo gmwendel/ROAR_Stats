@@ -35,4 +35,6 @@ comp-mgc-0011: 	 CPU: 14/40 	 RAM: 56.0G/1510.1G 	 GPU: 7/14 	 gc_t4.
 ```
 
 Usage notes:
-Perform updates at a rate of <1 per minute to avoid stressing the job scheduling system
+To see information about jobs running on each node, use ```sagemapp_stats -v```
+
+Perform updates at a frequency of <1 per minute to avoid stressing the job scheduling system
